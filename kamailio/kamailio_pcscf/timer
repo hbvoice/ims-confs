@@ -1,0 +1,42 @@
+route/sbc.cfg:143:	if (t_branch_timeout() || t_check_status("5..")) {
+route/register.cfg:12:	if ($sht(a=>$ci::start_time) == $null || $sht(a=>$ci::start_time) == 0) {
+route/register.cfg:13:      $sht(a=>$ci::start_time) = $TV(Sn);
+route/register.cfg:157:        	        # raise the TCP lifetime to a bigger value
+route/register.cfg:158:	                tcp_set_connection_lifetime("$(T_req($conid))", "600000");
+route/register.cfg:168:        	        # raise the TCP lifetime to a bigger value
+route/register.cfg:169:	                tcp_set_connection_lifetime("$(T_req($conid))", "600000");
+route/register.cfg:180:        	$var(start_secs) = $(sht(a=>$ci::start_time){s.select,0,.});
+route/register.cfg:181:        	$var(start_usecs) = $(sht(a=>$ci::start_time){s.select,1,.});
+route/register.cfg:185:        	$sht(a=>$ci::start_time)=0;
+route/register.cfg:189:        	update_stat("register_time", "$var(stat_add)");
+kamailio.cfg:68:# time will increase, but combined with mlock_pages will guarantee ser will get
+kamailio.cfg:127:# use 10s as default lifetime
+kamailio.cfg:128:tcp_connection_lifetime=10
+kamailio.cfg:158:# Kamailio Extensions (e.g. MI:uptime, MI:version, cfg:isflagset etc.)
+kamailio.cfg:251:loadmodule "rtimer"
+kamailio.cfg:277:modparam("pike", "sampling_time_unit", 2)
+kamailio.cfg:294:modparam("rtimer", "timer", "name=LI;interval=10;mode=1;")
+kamailio.cfg:295:modparam("rtimer", "exec", "timer=LI;route=LI_PING")
+kamailio.cfg:313:# default retransmission timeout: 10 sec
+kamailio.cfg:314:modparam("tm", "fr_timer", 10000)
+kamailio.cfg:315:# default invite retransmission timeout after 1xx: 120sec
+kamailio.cfg:316:modparam("tm", "fr_inv_timer", 120000)
+kamailio.cfg:318:modparam("tm", "retr_timer1", 2500)
+kamailio.cfg:392:modparam("ims_usrloc_pcscf", "ping_timer_interval", 100000)
+kamailio.cfg:407:modparam("ims_usrloc_pcscf", "ping_timer_interval", 100000)
+kamailio.cfg:412:modparam("ims_usrloc_pcscf", "timer_interval", 150000)
+kamailio.cfg:459:modparam("ims_dialog", "timeout_avp", "$avp(DLG_TIMEOUT_AVP)")
+kamailio.cfg:489:modparam("statistics", "variable", "register_time")
+kamailio.cfg:496:modparam("statistics", "variable", "mo_cst_time")
+kamailio.cfg:503:modparam("statistics", "variable", "mt_cst_time")
+kamailio.cfg:824:event_route[tcp:timeout] {
+sql/li/create/li.sql:2:SET time_zone = "+00:00";
+sql/create/ims_usrloc_pcscf-create.sql:15:  `expires` datetime DEFAULT '2030-05-28 21:32:15',
+sql/create/ims_dialog-create.sql:17:  `start_time` int(10) unsigned NOT NULL,
+sql/create/ims_dialog-create.sql:18:  `timeout` int(10) unsigned NOT NULL DEFAULT '0',
+sql/create/topos-create.sql:3:    `rectime` DATETIME NOT NULL,
+sql/create/topos-create.sql:28:CREATE INDEX rectime_idx ON topos_d (`rectime`);
+sql/create/topos-create.sql:35:    `rectime` DATETIME NOT NULL,
+sql/create/topos-create.sql:61:CREATE INDEX rectime_idx ON topos_t (`rectime`);
+sql/create/presence-create.sql:8:    `received_time` INT(11) NOT NULL,
+sql/create/presence-create.sql:66:    `inserted_time` INT(11) NOT NULL,

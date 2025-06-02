@@ -1,0 +1,7 @@
+# ng-voice Interconnect
+#1 sip:mmtel.ims1.mnc006.mcc410.3gppnetwork.org
+#1 sip:asterisk-gw.ims1.mnc006.mcc410.3gppnetwork.org
+#1 sip:sbc-2.ng-voice.com
+1 sip:192.168.0.179:5060
+99 sip:192.168.0.179:7060
+99 sip:192.168.0.179:7060

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiameterPeer
+        FQDN="pcscf.ims.mnc001.mcc001.3gppnetwork.org"
+        Realm="ims.mnc001.mcc001.3gppnetwork.org"
+        Vendor_Id="10415"
+        Product_Name="CDiameterPeer"
+        AcceptUnknownPeers="1"
+        DropUnknownOnDisconnect="1"
+        Tc="30"
+        Workers="8"
+        QueueLength="16"
+        TransactionTimeout="4"
+        SessionsHashSize="1024"
+        DefaultAuthSessionTimeout="3600"
+        MaxAuthSessionTimeout="3600"
+>
+
+<Peer FQDN="isbvpcrf001.zte.com" Realm="zte.com" port="3017"/>
+
+	<Acceptor port="3870" bind="192.168.0.179" />
+
+        <Auth id="16777236" vendor="10415"/> <!-- 3GPP Rx -->
+        <Auth id="16777236" vendor="0"/> <!-- 3GPP Rx -->
+
+<!-- <SupportedVendor vendor="10415" /> -->
+
+<DefaultRoute FQDN="isbvpcrf001.zte.com" metric="10"/>
+
+</DiameterPeer>
+

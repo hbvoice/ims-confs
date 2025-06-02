@@ -1,0 +1,90 @@
+Sep  4 13:25:27 pcscf [Proxy-CSCF][8945]: ERROR: <script>:     Answer: direction=private direction=public replace-origin replace-session-connection ICE=remove RTP AVP
+Sep  4 13:25:27 pcscf [Proxy-CSCF][8945]: ERROR: <script>:     mo
+Sep  4 13:25:27 pcscf [Proxy-CSCF][8945]: ERROR: <script>: Set: 1, Extra-ID mo
+Sep  4 13:25:27 pcscf [Proxy-CSCF][9016]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.106.178]:34937 ->
+Sep  4 13:25:27 pcscf [Proxy-CSCF][9016]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:27 pcscf [Proxy-CSCF][9016]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f92573f10d8 r: 0x7f92573f1158
+Sep  4 13:25:28 pcscf [Proxy-CSCF][9001]: ERROR: cdp [routing.c:275]: get_routing_peer(): get_routing_peer(): No connected DefaultRoute peer found for app_id 16777236 and vendor id 0.
+Sep  4 13:25:28 pcscf [Proxy-CSCF][9001]: ERROR: cdp [authstatemachine.c:870]: Send_STR(): unable to get routing peer in Send_STR 
+Sep  4 13:25:28 pcscf [Proxy-CSCF][9001]: ERROR: cdp [routing.c:275]: get_routing_peer(): get_routing_peer(): No connected DefaultRoute peer found for app_id 16777236 and vendor id 0.
+Sep  4 13:25:28 pcscf [Proxy-CSCF][9001]: ERROR: cdp [authstatemachine.c:870]: Send_STR(): unable to get routing peer in Send_STR 
+Sep  4 13:25:28 pcscf [Proxy-CSCF][9001]: ERROR: cdp [authstatemachine.c:404]: auth_client_statefull_sm_process(): auth_client_statefull_sm_process(): Received invalid event 6 while in state Open!
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8992]: WARNING: pua [send_subscribe.c:1173]: send_subscribe(): attempting to re-SUBSCRIBE to a temporary (non-established) dialog - skipping
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8992]: WARNING: pua [send_subscribe.c:1173]: send_subscribe(): attempting to re-SUBSCRIBE to a temporary (non-established) dialog - skipping
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>: 200 Subscription to REG saved
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>: REPLY: 200 Subscription to REG saved (SUBSCRIBE, 10.161.224.90:6060, hn0QTrskdDeRtDbLWTk)
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>:     downstream
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>:     mo
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8926]: ERROR: <script>: Set: 1, Extra-ID mo
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8942]: ERROR: <script>: REQUEST: NOTIFY sip:410060743910805@10.100.103.245:5060 (10.161.224.90:6060, hn0QTrskdDeRtDbLWTk)
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8942]: ERROR: <script>:     upstream
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8942]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8942]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8942]: ERROR: <script>:     mt
+Sep  4 13:25:29 pcscf [Proxy-CSCF][8942]: ERROR: <script>: Request had ToTag.
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>: 200 Subscription to REG saved
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>: REPLY: 200 Subscription to REG saved (SUBSCRIBE, 10.161.224.90:6060, LHlDTnaW3Ke9bf83TvO)
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>:     downstream
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>:     mo
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8915]: ERROR: <script>: Set: 1, Extra-ID mo
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8939]: ERROR: <script>: REQUEST: NOTIFY sip:410060743778757@10.100.63.37:5060 (10.161.224.90:6060, LHlDTnaW3Ke9bf83TvO)
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8939]: ERROR: <script>:     upstream
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8939]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8939]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8939]: ERROR: <script>:     mt
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8939]: ERROR: <script>: Request had ToTag.
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8992]: WARNING: pua [send_subscribe.c:1173]: send_subscribe(): attempting to re-SUBSCRIBE to a temporary (non-established) dialog - skipping
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9029]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.187.48]:37660 ->
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9029]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9029]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f92565a3100 r: 0x7f92565a3180
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9029]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.222.122]:42564 ->
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9029]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9029]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f9255e75cf0 r: 0x7f9255e75d70
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9001]: ERROR: cdp [routing.c:275]: get_routing_peer(): get_routing_peer(): No connected DefaultRoute peer found for app_id 16777236 and vendor id 0.
+Sep  4 13:25:30 pcscf [Proxy-CSCF][9001]: ERROR: cdp [authstatemachine.c:870]: Send_STR(): unable to get routing peer in Send_STR 
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8910]: ERROR: <script>: REQUEST: SUBSCRIBE sip:scscf.ims.mnc006.mcc410.3gppnetwork.org (10.100.160.109:5060, qjyFseUQHInEHlgw4@10.100.160.109)
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8910]: ERROR: <script>:     downstream
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8910]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8910]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8910]: ERROR: <script>:     mt
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8910]: ERROR: <script>: Request had ToTag.
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8943]: ERROR: <script>: REQUEST: NOTIFY sip:+923454134447@10.100.160.109:5060;user=phone (10.161.224.90:6060, qjyFseUQHInEHlgw4@10.100.160.109)
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8943]: ERROR: <script>:     upstream
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8943]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8943]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8943]: ERROR: <script>:     mt
+Sep  4 13:25:30 pcscf [Proxy-CSCF][8943]: ERROR: <script>: Request had ToTag.
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9014]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.203.222]:51893 ->
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9025]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.196.121]:43478 ->
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9025]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9014]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9025]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f9255ae06b0 r: 0x7f9255ae0730
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9014]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f92568fa968 r: 0x7f92568fa9e8
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9014]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.77.190]:55888 ->
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9014]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9014]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f9256a46be8 r: 0x7f9256a46c68
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>: 200 Subscription to REG saved
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>: REPLY: 200 Subscription to REG saved (SUBSCRIBE, 10.161.224.90:6060, 2jNzqQZKecFXn7Bawzy)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>:     downstream
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>:     mo
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8936]: ERROR: <script>: Set: 1, Extra-ID mo
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8918]: ERROR: <script>: REQUEST: NOTIFY sip:410060449175919@10.100.91.26:5060 (10.161.224.90:6060, 2jNzqQZKecFXn7Bawzy)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8918]: ERROR: <script>:     upstream
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8918]: ERROR: <script>:     Offer: <null>
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8918]: ERROR: <script>:     Answer: <null>
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8918]: ERROR: <script>:     mt
+Sep  4 13:25:31 pcscf [Proxy-CSCF][8918]: ERROR: <script>: Request had ToTag.
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9001]: ERROR: cdp [routing.c:275]: get_routing_peer(): get_routing_peer(): No connected DefaultRoute peer found for app_id 16777236 and vendor id 0.
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9001]: ERROR: cdp [authstatemachine.c:870]: Send_STR(): unable to get routing peer in Send_STR 
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9022]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.96.159]:60854 ->
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9022]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9022]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f92576a6e18 r: 0x7f92576a6e98
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9025]: ERROR: <core> [core/tcp_read.c:301]: tcp_read_data(): error reading: Connection timed out (110) ([10.100.55.220]:50535 ->
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9025]: ERROR: <core> [core/tcp_read.c:302]: tcp_read_data(): -> [10.161.224.228]:5060)
+Sep  4 13:25:31 pcscf [Proxy-CSCF][9025]: ERROR: <core> [core/tcp_read.c:1485]: tcp_read_req(): ERROR: tcp_read_req: error reading - c: 0x7f9255c933e8 r: 0x7f9255c93468
