@@ -24,3 +24,6 @@ https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/
 
 https://github.com/JawadZebNow/ImsDroidFork
 
+Reference: 
+1. https://github.com/open5gs/open5gs/discussions/2694
+2. https://open5gs.org/open5gs/docs/guide/01-quickstart/
